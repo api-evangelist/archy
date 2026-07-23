@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://trust.archy.com/
+url: https://trust.archy.com/
+platform: Vanta
+# Vanta-hosted trust center (SPA served from api.vanta.com; slug v4zuh4uom17th9wk5mociz).
+# The public trust page requires an in-app session to render the document/subprocessor
+# list, so certifications below are the ones Archy publishes on its own marketing surface
+# and are corroborated by third-party listings. No SOC 2 report was verifiable from a
+# public source at probe time.
+certifications:
+- id: hipaa
+  name: HIPAA
+  status: compliant
+  evidence: https://www.archy.com/cloud-benefits
+  note: >-
+    "Archy uses HIPAA-compliant Amazon Web Services based infrastructure that ensures a
+    high standard of data security and compliance with HIPAA." Corroborated across
+    third-party software directories.
+- id: iso-9001
+  name: ISO 9001
+  status: claimed
+  evidence: https://www.archy.com/cloud-benefits
+  note: >-
+    Vendor-stated: "Archy ensures top-tier protection with ISO 9001 and SSAE 18
+    certifications." Reads as infrastructure/AWS-level assurance; not independently verified.
+- id: ssae-18
+  name: SSAE 18
+  status: claimed
+  evidence: https://www.archy.com/cloud-benefits
+  note: Vendor-stated alongside ISO 9001; not independently verified.
+security_contact: security@archy.com   # published in archy.com DNS CAA iodef record
+notes:
+- Healthcare data (PHI) practice-management SaaS; HIPAA is the primary published posture.
+- No public developer/API surface; the Master Service Agreement restricts access to non-public APIs.

@@ -1,0 +1,29 @@
+# Archy
+
+> Archy is an all-in-one, cloud-based dental practice management platform that consolidates scheduling, clinical charting, imaging, insurance verification, billing, patient communication, payments, and reporting into a single system, with AI agents that automate routine practice workflows. Founded in 2021 (Jonathan Rat and Benjamin Kolin) and backed by TCV, Bessemer Venture Partners, CRV, and Entrée Capital ($47M total funding through a 2025 Series B). Archy handles protected health information and is HIPAA-compliant; it exposes no public developer API.
+
+## Company
+- [Home](https://www.archy.com/): One software powering an entire dental practice.
+- [About](https://www.archy.com/company/about): Company mission and founders.
+- [AI / Archy Intelligence](https://www.archy.com/ai): AI agents (Scribe, Revenue, Intelligence, Verify).
+- [Pricing](https://www.archy.com/pricing): Plans and pricing.
+- [Blog](https://www.archy.com/resources/blog): Product and dental-practice content.
+- [Careers](https://www.archy.com/company/careers): Open roles.
+- [Get a demo](https://www.archy.com/demo): Request a product demo.
+- [Login](https://portal.archy.com/): Customer application portal.
+
+## Platform
+- [Operations](https://www.archy.com/platform/operations)
+- [Clinical Tools](https://www.archy.com/platform/clinical-tools)
+- [Payments](https://www.archy.com/platform/payments)
+
+## Trust & Legal
+- [Trust Center](https://trust.archy.com/): Vanta-hosted; HIPAA posture, security practices.
+- [Security contact](mailto:security@archy.com): Published via archy.com DNS CAA iodef.
+- [Privacy Policy](https://www.archy.com/legal/privacy-policy)
+- [Terms of Use](https://www.archy.com/legal/terms-of-use)
+- [Master Service Agreement](https://www.archy.com/legal/master-service-agreement)
+
+## Notes
+- No public API, developer portal, SDKs, or /.well-known/ discovery documents are published.
+- The Master Service Agreement explicitly restricts access to non-public APIs.

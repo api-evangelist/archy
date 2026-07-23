@@ -1,8 +1,16 @@
 aid: archy
 name: Archy
-description: 'Archy is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Archy is an all-in-one, cloud-based dental practice management platform that consolidates scheduling,
+  clinical charting, imaging, insurance verification, billing, patient communication, online payments,
+  and reporting into a single system, layered with AI agents (Scribe for clinical notes, Revenue for
+  insurance claim posting, Intelligence for analytics, and Verify for real-time insurance verification)
+  that automate routine practice workflows. Founded in 2021 by Jonathan Rat and Benjamin Kolin and backed
+  by TCV, Bessemer Venture Partners, CRV, and Entree Capital, Archy has raised roughly $47M through a 2025
+  Series B and serves tens of thousands of active users across dental practices. As a handler of protected
+  health information it is HIPAA-compliant, publishes a Vanta-hosted trust center, and ships native iOS and
+  Android apps. Archy exposes no public developer API; this profile is maintained by the API Evangelist
+  network for identity, security, and discoverability coverage.
 url: https://raw.githubusercontent.com/api-evangelist/archy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,31 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/651122b54162cd123e42c9cf/68f97043ef9b5a7b1027cb91_og-graph-25.avif
 tags:
 - Company
-- Fintech
+- Dental
+- Healthcare
+- Practice Management
+- Dental Software
+- SaaS
+- Artificial Intelligence
+- Payments
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/archy-domain-security.yml
+- type: TrustCenter
+  url: https://trust.archy.com/
+- type: Trust
+  url: security/archy-trust-center.yml
+- type: Compliance
+  url: https://www.archy.com/cloud-benefits
 - type: Website
   url: https://www.archy.com/
+- type: Pricing
+  url: https://www.archy.com/pricing
+- type: Blog
+  url: https://www.archy.com/resources/blog
+- type: Login
+  url: https://portal.archy.com/
+- type: TermsOfService
+  url: https://www.archy.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.archy.com/legal/privacy-policy
+- type: Support
+  url: https://www.archy.com/resources/contact
+- type: About
+  url: https://www.archy.com/company/about
+- type: LLMsTxt
+  url: llms/archy-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
