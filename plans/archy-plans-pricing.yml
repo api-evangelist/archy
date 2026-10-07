@@ -1,0 +1,49 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.archy.com/pricing
+sources:
+- https://www.archy.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: flat-platform
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Dental practice management SaaS; one flat platform price per location with unlimited users. Add-on
+  suites have no published prices.
+plan_count: 5
+currency: USD
+plans:
+- name: Archy Platform
+  price_text: $899/month per location
+  price: 899
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: Unlimited users, unlimited providers, unlimited claim submissions, unlimited eligibility
+    checks, unlimited texting
+- name: New-Practice
+  price_text: $400 /month until 400 patients or 1 year per location
+  price: 400
+  currency: USD
+  period: month
+  unit: per location
+  included_quota: Special first-year pricing for qualifying new practices
+- name: Clinical Suite
+  price_text: Get Clinical Suite Pricing
+  period: none
+  included_quota: AI Scribe, AI Voice Perio, Clinical AI Imaging
+- name: Front Office Suite
+  price_text: Get Front Office Suite Pricing
+  period: none
+  included_quota: Archy Revenue, Insurance Verification, Statement Mailing Automation
+- name: Marketing Suite
+  price_text: Get Marketing Suite Pricing
+  period: none
+  included_quota: Archy Websites
