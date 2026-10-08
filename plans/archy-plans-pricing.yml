@@ -47,3 +47,47 @@ plans:
   price_text: Get Marketing Suite Pricing
   period: none
   included_quota: Archy Websites
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Archy Platform
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: New-Practice
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Clinical Suite
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Front Office Suite
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Marketing Suite
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
